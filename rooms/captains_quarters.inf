@@ -1,0 +1,7 @@
+Object Captains_Quarters "[captain's quarters]"
+  has light,
+  with name 't_captains' 't_quarters',
+       description [; print_ret (string) R_CQ_DESC; ];
+
+Constant R_CQ_DESC =
+  "[captain's quarters description]";

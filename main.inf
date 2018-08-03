@@ -1,0 +1,55 @@
+
+Constant Story "The Gostak 2 (working title)";
+Constant Headline 
+  "^^A spiritual successor to Carl Muckenhoupt's The Gostak, by Ness Morris^
+     For a salug, [type] ~SALUG~^";
+
+Include "Parser";
+Include ">VerbLib.h";
+Include ">TMenus.h";
+Include ">language.h";
+
+Include ">rooms/captains_quarters";
+Include ">help_menu";
+
+[ Initialise;
+  location = Captains_Quarters;
+  "^^^
+   [Here] you [are], on your [quarters]. [Being] the [captain] doesn't [mean]
+   [much] when you're the [only] [crewmember] who [survived].
+   ";
+];
+
+! Verb 'test'
+!     noun * -> TestNounFirst
+!     * noun -> TestNounSecond;
+! 
+! [ TestNounFirstSub;
+!   print_ret "noun first";
+! ]; 
+! 
+! [ TestNounSecondSub;
+!   print_ret "noun second";
+! ];
+
+[ Anything; ! ignore the remaining input line
+  while( NextWordStopped() ~= -1 );
+  return GPR_PREPOSITION;
+];
+
+[ NoSuchVerbSub; L__M(##MISCELLANY, 38); ];
+
+Include "Grammar";
+
+Extend 'examine' replace
+  * Anything -> NoSuchVerb;
+
+Verb 'ruch' 'r//'
+  * noun -> Examine;
+
+[ TestNumbersSub i;
+  for( i = 0 : i < 30 : i++ )
+  {
+    print i, " = ", (LanguageNumber) i, "^";
+  }
+];

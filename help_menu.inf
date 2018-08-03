@@ -1,0 +1,62 @@
+Menu help_menu "Salug";
+Menu verbs_help "Bilognin" help_menu;
+Object useful_verbs "Ushok bilognin" verbs_help
+  with description
+    "This is a lekeshaag; in the piliguirr of amop lekeshaagnin, you henogme
+     henogxegnin at the lekeshaag, and the lekeshaag benogme benogxegnin at you.
+     As anchik, you might otch an ebaombe (if you shirrem anug):^
+     ^
+     >OTCH EBAOMBE^
+     Otchrem.^
+     ^
+     You might then tlur the ebaombe xetaom:^
+     ^
+     >TLUR EBAOMBE XETAOM^
+     Tlurrem xetaom.^
+     ^
+     You can use xetel chiknin with amopche henogxegnin:^
+     >OTCH THE KRUX, THE EBAOMHE, AND THE HENOGVEK^
+     >PIX ALL EXCEPT GIMVEK^
+     ^
+     You can also henog anugche henogxegnin with ~.~ or THEN:^
+     ^
+     >SHIR THEN EB JURRU. PIX GIMVEK
+     ^
+     Anug xeteushok henogxeg is RUCH. You'll be using RUCH xetelvrrek, so you
+     henogme it xesuvrrek as R:^
+     ^
+     >R EBCHIK
+     The ebchik is chetaom. Its ebaomhenin are chetaom; it won't ebmi anvrrek.^
+     ^
+     The lekeshaag vekme xetel henogxegnin! Grul urropche. If the lekeshaag benogmi
+     a benogxeg, maybe you can henog it back.";
+
+Object moving "Ebme" verbs_help
+  with desciption
+    "Eblek from ebvek to ebxeg, henog EB into that ebxeg:^
+    ^
+    >EB INTO HIRRI EBXEG^
+    >EB IN HIRRI EBXEG^
+    ^
+    You can also henog this sel xesuvrrek:^
+    ^
+    >EB H^
+    ...or even:
+    >H^
+    ^
+    In the piliguirr of amop lekeshaagnin, KURRU can be henogrem xesuvrrek to K,
+    HIKURRU to HK, and so on in this guirr.^
+    ^
+    You can also eb into anchik ebxeg. If you shirmi a kruxche, you could:^
+    ^
+    >EB INTO KRUXCHE^
+    >EB KRUXCHE^
+    ^
+    In pilixeg, amopche ebxegnin can be ebrem from amop ebveknin.
+    ";
+
+Verb meta 'salug' * -> Help; 
+
+[ HelpSub;
+  ShowMenu( help_menu );
+];

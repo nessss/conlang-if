@@ -1,0 +1,254 @@
+-me         -> verb present habitual tense
+-mi         -> verb present tense
+-rem        -> verb perfect tense (done)
+-(r)err     -> verb imperfect tense (was doing)
+-lek        -> verb infinitive
+-bek        -> future
+-ben        -> future perfect
+-tem        -> pluperfect
+
+-nin        -> noun plural
+-ninne      -> collection of noun
+
+urr         -> 0
+anug        -> 1
+atots       -> 2
+ipab        -> 3
+apub        -> 4
+akuk        -> 5
+ibuk        -> 6
+emek        -> 7
+
+opim        -> 8
+odish       -> 64
+okid        -> 512
+
+nodish      -> "hour"
+nanug       -> "minute"
+
+enu         -> indefinite article
+anu         -> definite article
+
+numbers use octal system:
+anopanug    -> 0o11   -> 9  (1 * 8 + 1)
+anopipab    -> 0o13   -> 11 (1 * 8 + 3)
+atopakuk    -> 0o25   -> 21 (2 * 8 + 5)
+akokurr     -> 0o5000 -> (5 * 512)
+
+amop        -> all
+amopche     -> some but not all
+
+anugche     -> more than one; multiple
+anugtel     -> another; one more
+antelvrrek  -> again; another time; once more
+
+urrop       -> none
+urropche    -> any
+
+ged         -> and
+exe         -> but
+nev         -> or
+
+chix        -> what
+dux         -> who; whom
+bux         -> which
+
+// -------  pronouns  -------
+     *--------------------*
+     |singular  |   plural|
+     |---------------------
+ 1st |  dax     |   danin |
+ 2nd |  bex     |   benin |
+ 3rd |  dix     |   dinin |
+     *--------------------*
+
+// ------- posessives -------
+     *--------------------*
+     |singular  |   plural|
+     |---------------------
+ 1st |  drax    |  dranin |
+ 2nd |  brex    |  brenin |
+ 3rd |  drix    |  drinin |
+     *--------------------*
+
+// ------- demonstratives -------
+
+xian        -> this
+xianin      -> these
+xion        -> that
+xionin      -> those
+
+orr         -> of
+
+ib          -> yes
+tou         -> no
+
+chik        -> thing
+-chik       -> verb suffix to turn into noun (something that [verb]s)
+-xeg        -> verb suffix to turn into noun (something resulting from [verb]ing)
+-vek        -> verb suffix to turn into noun (something necessary for [verb]ing)
+
+uzuk        -> score
+amopuzuk    -> fullscore
+
+xeg         -> (to) result
+cheveg      -> (to) not result
+vek         -> (to) require
+chevek      -> (to) not require
+
+anchik      -> something specific; example
+urrchik     -> nothing
+
+salug       -> help
+
+xif         -> subject; topic
+
+ushok       -> useful
+
+leke-       -> interactive
+shaag       -> story
+lekeshaag   -> work of IF
+
+pili        -> expect
+  pilixeg   -> expectation
+guirr       -> fashion
+piliguirr   -> tradition
+
+// these two are prefixes for verbs, suffixes for nouns
+-he-        -> receives
+-be-        -> produces or emits
+
+// this prefix turns nouns and verbs into adjectives
+xe-  (before consonant)
+xet- (before vowel)
+
+// this prefix turns nouns and verbs into adjectives meaning the opposite
+// can also be used as suffixes to negate nouns (indicate a lack of a noun)
+che-  (before consonant)
+chet- (before vowel)
+
+henog       -> input, feed into
+  xehenog   -> hungry; desiring
+  chehenog  -> satiated
+  henogchik -> mouth; receptacle
+  henogxeg  -> instruction; greeting
+  henogvek  -> food
+
+benog       -> output, emit
+  xebenog   -> overfull; spilling; emitting
+  chebenog  -> not emitting or outputting when expected to
+  benogchik -> anus; exhaust; faucet
+  benogxeg  -> feedback; response
+
+otch  (o)   -> take
+pix         -> drop
+shir  (s)   -> look, see
+ruch        -> examine
+tlur        -> set
+grul        -> do
+chegrul     -> wait
+grem        -> can
+gremche     -> can't
+erit        -> is
+erich       -> isn't
+okex        -> hold, have
+ichix       -> want
+kol         -> know; understand
+kitim       -> include
+chekitim    -> except
+
+kel         -> mean
+kelchik     -> meaning
+
+drachiknin  -> inventory
+
+eb          -> go; move
+ebchik      -> vehicle; moving object
+ebvek       -> origin; starting point
+ebxeg       -> destination
+
+ebebe       -> push
+ebehe       -> pull
+
+ebaom       -> light (physical phenomonon, not weight)
+ebaomche    -> darkness
+ebaombe     -> flashlight
+ebaomhe     -> solar panel
+xebaombe    -> emitting light
+xebaomhe    -> lit
+chebaombe   -> not emitting light
+chebaomhe   -> unlit
+
+aom         -> energy, electricity
+  xetaom    -> on; energetic
+  chetaom   -> off; not energetic/powered; lazy; depleted
+aombe       -> generator, power source
+  xetaombe  -> emitting energy
+  chetaombe -> not emitting energy when expected to
+aomhe       -> energy consumer (general term)
+  xetaomhe  -> consuming energy
+  chetaomhe -> not consuming energy when expected to
+
+terr        -> largeness
+  xeterr    -> large; very
+  xete-     -> large-prefix
+surr        -> smallness
+  xesurr    -> small; not very
+  xesu-     -> small-prefix
+
+tel         -> manyness; excess; more
+  xetel     -> many
+sul         -> fewness; paucity; less
+  xesul     -> few
+
+kech        -> weight
+xekech      -> heavy
+chekech     -> lightweight
+
+vrrek       -> time
+anvrrek     -> now; at this time
+hevrrek     -> before; earlier; previous; understand
+bevrrek     -> after; later; then; next
+xetevrrek   -> lasting a long time; verbose
+xetelvrrek  -> often; frequently
+xesuvrrek   -> momentary; brief
+xesulvrrek  -> rarely; occasionally
+
+anxesuv     -> moment
+
+chevrrekme  -> pause
+xevrrekme   -> resume
+
+trirr       -> mood; state of mind
+xeketri     -> amusing; lighthearted; humorous
+xeketrirr   -> good mood
+cheketri    -> saddening; serious; heavy-hearted
+cheketrirr  -> bad mood
+
+krux        -> plant
+xeterrokrux -> tree
+kruxninnen  -> forest
+kruxeche    -> clearing
+
+gim         -> pound
+  gimvek    -> hammer
+  gimxeg    -> divot; dent
+
+// directions
+rrirru      -> direction
+
+hirri (h)   -> west
+jurru (j)   -> south
+kurru (k)   -> north
+lirri (l)   -> east
+
+hijurru (hj)-> sw
+hikurru (hk)-> nw
+lijurru (lj)-> se
+likurru (lk)-> ne
+
+xirre       -> up
+chirre      -> down
+
+berre       -> inside
+herre       -> outside
